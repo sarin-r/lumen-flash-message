@@ -1,5 +1,5 @@
 {
-    "name": "php-flash-message",
+    "name": "sarin/flash",
     "type": "library",
     "description": "PHP Simple Flash Message for Lumen, Slim",
     "keywords": ["lumen","slim","framework","flash","message","php"],
