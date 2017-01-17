@@ -1,0 +1,18 @@
+{
+    "name": "php-flash-message",
+    "type": "library",
+    "description": "PHP Simple Flash Message for Lumen, Slim",
+    "keywords": ["lumen","slim","framework","flash","message","php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sarin R",
+            "email": "sarin@mediarede.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sarin\\Flash\\": "src"
+        }
+    }
+}
