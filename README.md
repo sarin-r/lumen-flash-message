@@ -1,2 +1,2 @@
-# lumen-flash-message
-Simple Flash Message for Lumen
+# php-flash-message
+Simple PHP Flash Message for Lumen, Slim Frameworks
