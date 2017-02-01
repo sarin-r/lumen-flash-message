@@ -13,9 +13,6 @@ $ composer require sarin/flash
 ## Usage
 
 ```php
-// Start PHP session
-session_start();
-
 $flash = new \Sarin\Flash\Messages();
 
 // Add flash message
