@@ -20,16 +20,16 @@ class Messages
 
 		$this->storage = &$_SESSION;
 
-		// Load messages from previous request
+		// Load messages from session
         if (isset($this->storage[$this->key]) && is_array($this->storage[$this->key])) {
             $this->message = $this->storage[$this->key];
         }
-		// Empty messages
+		// Empty session messages
         $this->storage[$this->key] = [];
     }
 
 	/**
-     * Add flash message for current request
+     * Add flash message
      *
      * @param string $key The key to store the message under
      * @param mixed  $message Message to show on next request
@@ -48,7 +48,7 @@ class Messages
 	/**
      * Get all flash messages
      *
-     * @return array Messages to show for current request
+     * @return array Messages to show
      */
     public function getAll()
     {
@@ -59,7 +59,7 @@ class Messages
      * Get flash message by key
      *
      * @param string $key The key to get the message from
-     * @return array Messages to show for current request
+     * @return array Messages to show
      */
     public function get($key)
     {
