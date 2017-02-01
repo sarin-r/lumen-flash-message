@@ -15,9 +15,9 @@ class Messages
     public function __construct()
     {
 		// Start session
-        if (session_status() == PHP_SESSION_NONE)
+        if (session_status() == PHP_SESSION_NONE) {
             session_start();
-
+        }
 		$this->storage = &$_SESSION;
 
 		// Load messages from session
