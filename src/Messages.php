@@ -6,7 +6,7 @@ namespace Sarin\Flash;
 class Messages
 {
 	protected $storage;
-	protected $key = 'lumen-flash';
+	protected $key = 'sarin-flash';
 	protected $message = [];
 
     /**
